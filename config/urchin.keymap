@@ -72,6 +72,73 @@
             slow-release;
             layers = <0>;
         };
+
+        ESC_combo {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <120>;
+            slow-release;
+        };
+
+        TAB_combo {
+            bindings = <&kp TAB>;
+            key-positions = <10 11>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <120>;
+        };
+
+        ENTER_combo {
+            bindings = <&kp ENTER>;
+            key-positions = <16 17>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <50>;
+            slow-release;
+        };
+
+        COPY_combo {
+            bindings = <&kp LC(C)>;
+            key-positions = <12 13>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <120>;
+            slow-release;
+        };
+
+        PASTE_combo {
+            bindings = <&kp LC(V)>;
+            key-positions = <12 23>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <120>;
+            slow-release;
+        };
+
+        momentary_layer_bluetooth {
+            bindings = <&mo 3>;
+            key-positions = <20 21 22 23>;
+            layers = <0>;
+        };
+
+        Capture_combo {
+            bindings = <&kp LS(LG(S))>;
+            key-positions = <1 2 3>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <120>;
+            slow-release;
+        };
+
+        DEL_combo {
+            bindings = <&kp DELETE>;
+            key-positions = <5 6>;
+        };
+
+        F2_Combo {
+            bindings = <&kp F2>;
+            key-positions = <3 4>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <120>;
+            slow-release;
+            layers = <0>;
+        };
     };
 
     keymap {
