@@ -198,6 +198,12 @@
             slow-release;
             layers = <0>;
         };
+
+        Bootloder_combo {
+            bindings = <&bootloader>;
+            key-positions = <31 32>;
+            layers = <3>;
+        };
     };
 
     keymap {
