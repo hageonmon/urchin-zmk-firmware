@@ -47,11 +47,32 @@
         // sometimes my device thinks a modifier is being held down
         // pressing all modifiers fixes it.
 
-        unstick: unstick {
-            label = "ZM_unstick";
+        PW1: PW1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LSHIFT &kp RSHIFT &kp LCTRL &kp RCTRL &kp LALT &kp RALT &kp LGUI &kp RGUI>;
+            bindings = <&kp N2 &kp N0 &kp N2 &kp N2 &kp N0 &kp N9 &kp N0 &kp N1 &kp Q &kp EXCL &kp AT &kp POUND>;
+            label = "PW1";
+        };
+
+        PW2: PW2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N0 &kp T &kp N0 &kp L &kp E &kp R &kp AT &kp N &kp C &kp E>;
+            label = "PW2";
+        };
+
+        PW3: PW3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp AT &kp E &kp L &kp V &kp H &kp X &kp K &kp D &kp L &kp A>;
+            label = "PW3";
+        };
+
+        Domain: Domain {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp O &kp F &kp F &kp I &kp C &kp E &kp D &kp E &kp P &kp O &kp T &kp DOT &kp C &kp O &kp DOT &kp K &kp R>;
+            label = "DOMAIN";
         };
     };
 
