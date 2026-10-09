@@ -242,10 +242,10 @@
         Num {
             label = "Num";
             bindings = <
-&kp TILDE  &none      &kp UP        &none      &none      &kp MINUS  &kp N7  &kp N8  &kp N9  &kp SQT
-&kp LSHFT  &kp LEFT   &kp DOWN      &kp RIGHT  &none      &kp EQUAL  &kp N4  &kp N5  &kp N6  &kp LBKT
-&kp PLUS   &kp MINUS  &kp ASTERISK  &kp SLASH  &kp DOT    &kp BSLH   &kp N1  &kp N2  &kp N3  &kp RBKT
-                                    &none      &kp SPACE  &kp DEL    &kp N0
+&kp TILDE  &none      &kp UP        &none      &none      &kp MINUS      &kp N7  &kp N8  &kp N9  &kp SQT
+&kp LSHFT  &kp LEFT   &kp DOWN      &kp RIGHT  &none      &kp EQUAL      &kp N4  &kp N5  &kp N6  &kp LBKT
+&kp PLUS   &kp MINUS  &kp ASTERISK  &kp SLASH  &kp DOT    &kp BSLH       &kp N1  &kp N2  &kp N3  &kp RBKT
+                                    &none      &kp SPACE  &kp BACKSPACE  &kp N0
             >;
         };
 
