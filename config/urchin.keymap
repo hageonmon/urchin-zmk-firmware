@@ -223,10 +223,10 @@
         Base {
             label = "Base";
             bindings = <
-&kp Q           &kp W  &kp E               &kp R             &kp T      &kp Y          &kp U              &kp I      &kp O    &kp P
-&hr LEFT_ALT A  &kp S  &hr LEFT_CONTROL D  &hr LEFT_SHIFT F  &kp G      &kp H          &hr RIGHT_SHIFT J  &kp K      &kp L    &hr RIGHT_GUI SEMICOLON
-&kp Z           &kp X  &kp C               &kp V             &kp B      &kp N          &kp M              &kp COMMA  &kp DOT  &kp SLASH
-                                           &mo 2             &kp SPACE  &kp BACKSPACE  &mo 1
+&kp Q           &kp W  &kp E                &kp R             &kp T      &kp Y          &kp U              &kp I      &kp O    &kp P
+&hr LEFT_ALT A  &kp S  &hr RIGHT_CONTROL D  &hr LEFT_SHIFT F  &kp G      &kp H          &hr RIGHT_SHIFT J  &kp K      &kp L    &hr RIGHT_GUI SEMICOLON
+&kp Z           &kp X  &kp C                &kp V             &kp B      &kp N          &kp M              &kp COMMA  &kp DOT  &kp SLASH
+                                            &mo 2             &kp SPACE  &kp BACKSPACE  &mo 1
             >;
         };
 
